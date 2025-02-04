@@ -112,14 +112,11 @@ section{
     font-weight: 700;
 }
 
-.currency{
+.currency, .currency-value{
     text-align: center;
 }
 
-.currency-img{
+.currency-img , #brasil{
     margin-left: 10px;
 }
 
-#brasil{
-    margin-left: 7px;    
-}
