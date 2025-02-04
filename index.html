@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convert Money</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <img id="bryan-money" src="./assets/bryan.gif">
+
+    <main class="container-content">
+
+        <div class="convert">
+
+            <p class="p-convert">Converter <b>de</b></p>
+            <select id="currency-change">
+                <option>R$ Real Brasileiro</option>
+                <option>US$ Dolar Americano</option>
+                <option>€ Euro</option>
+                <option>£ Libra</option>
+                <option>₿ Bitcoin</option>
+            </select>
+
+            <p class="p-convert">Converter <b>para</b></p>
+            <select id="currency-convert">
+                <option value="dollar">US$ Dollar</option>
+                <option value="euro">€ Euro</option>
+                <option value="libra">£ Libra</option>
+                <option value="bitcoin">₿ Bitcoin</option>
+                <option value="real">R$ Real Brasileiro</option>
+            </select>
+
+            <p id="p-value"><b>Valor</b></p>
+            <input class="input-currency" placeholder="R$ 10.000,00">
+
+            <button onclick="convertValues()" class="convert-button">Converter</button>
+        </div>
+
+
+       <section> 
+            <div class="img-currency">
+                <img id="brasil" src="./assets/brasil.png">
+                <p class="currency">Real</p>
+                <p class="currency-value-to-convert">R$ 0,00</p>
+            </div> 
+
+                <img id="arrow" src="./assets/arrow.png">
+
+            <div class="currency-box">    
+                <img class="currency-img"  src="./assets/usa.png" alt="logo-moeda-convertida">
+                <p class="currency" id="usa-currency">Dollar</p>
+                <p class="currency-value">US$ 0.00</p>
+            </div>
+    </section>
+    </main>
+
+<script src="./script.js"></script> 
+</body>
+</html>
