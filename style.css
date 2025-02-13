@@ -16,6 +16,7 @@ body{
     display: block;
     justify-self: center;
     margin-top: 12px;
+    margin-bottom: 7px;
 }
 
 .container-content{
@@ -36,23 +37,30 @@ select, input{
     margin-bottom: 24px;
     appearance: none;
     margin-top: 5px;
-    padding-left: 18px;
+    padding: 0 18px;
     font-weight: 700;
     font-size: 16px;
     color: #555;
     cursor: pointer;
+    text-align: center;
+}
+
+input::placeholder {
+    text-align: center; /* Centraliza o texto do placeholder */
 }
 
 .p-convert{
     font-weight: 400;
     font-size: 14px;
     color: #777;
+    text-align: center;
 }
 
 #p-value{
     font-weight: 400;
     font-size: 14px;
     color: #777;
+    text-align: center;
 }
 
 button{
@@ -116,7 +124,9 @@ section{
     text-align: center;
 }
 
-.currency-img , #brasil{
-    margin-left: 10px;
+.img-currency, .currency-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
-

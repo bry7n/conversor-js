@@ -15,15 +15,15 @@
 
             <p class="p-convert">Converter <b>de</b></p>
             <select id="currency-change">
-                <option>R$ Real Brasileiro</option>
-                <option>US$ Dolar Americano</option>
-                <option>€ Euro</option>
-                <option>£ Libra</option>
-                <option>₿ Bitcoin</option>
+                <option value="real">R$ Real Brasileiro</option>
+                <option value="dollar">US$ Dollar</option>
+                <option value="euro">€ Euro</option>
+                <option value="libra">£ Libra</option>
+                <option value="bitcoin">₿ Bitcoin</option>
             </select>
 
             <p class="p-convert">Converter <b>para</b></p>
-            <select id="currency-convert">
+            <select id="currency-convert" class="option-currency"> 
                 <option value="dollar">US$ Dollar</option>
                 <option value="euro">€ Euro</option>
                 <option value="libra">£ Libra</option>
@@ -41,7 +41,7 @@
        <section> 
             <div class="img-currency">
                 <img id="brasil" src="./assets/brasil.png">
-                <p class="currency">Real</p>
+                <p class="currency" id="brasil-currency">Real</p>
                 <p class="currency-value-to-convert">R$ 0,00</p>
             </div> 
 
